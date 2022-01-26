@@ -1,3 +1,5 @@
+import epicMeal from '../../assets/EpicMeal.jpg'
+
 const Header = props => {
   return (
     <>
@@ -5,7 +7,9 @@ const Header = props => {
       <h1>ReactMeals</h1>
       <button>Cart</button>
     </header>
-    <div></div>
+    <div>
+      <img src={epicMeal} alt='The funniest image in human history'/>
+    </div>
     </>
   )
 }
